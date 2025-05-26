@@ -1,3 +1,3 @@
 # Web-Developer-Projects
 
-# Frontend Projects (HTML/CSS/JS)
+• Frontend Projects (HTML/CSS/JS)
