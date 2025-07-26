@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1b263b;
+    padding: 19px;
+}
+
+.navmenu h1 {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+
+}
+
+.navmenu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    border: 2px solid;
+    /* background-image: url(https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?q=80&w=1129&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-image: url(https://img.freepik.com/free-vector/gradient-abstract-wireframe-background_23-2149009903.jpg?semt=ais_hybrid&w=740);
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 10px; */
+    padding: 30px;
+    text-align: center;
+}
+
+.left {
+    /* display: inline; */
+    align-content: center;
+    line-height: 90px;
+    padding-top: 60px;
+    margin-left: 90px;
+    /* border: 2px solid white; */
+}
+
+.container .left h1 {
+    align-content: center;
+    text-align: center;
+    font-size: 4.20em;
+    text-align: left;
+    color: white;
+}
+
+.container .left h2 {
+    /* border: 1px solid; */
+    font-size: 4em;
+    text-align: left;
+    margin-left: 70px;
+    color: white;
+
+}
+
+.container .left h4 {
+    font-size: 2rem;
+    color: white;
+
+}
+
+.container .right img {
+    width: 30vw;
+    border-radius: 50%;
+}
