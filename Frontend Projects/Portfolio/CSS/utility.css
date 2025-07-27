@@ -2,16 +2,30 @@
 :root {
 
     /* =============== Colors =============== */
+    --first-color: hsl(0, 100%, 50%);
+    /* Red */
+    --first-color-dark: hsl(0, 100%, 10%);
+    /* Dark red / near black */
+    --white-color: hsl(0, 0%, 100%);
+
 
     --first-hue: 260;
     --second-hue: 216;
-    --first-color: hsl(var(--first-hue), 91%, 64%);
-    --first-color-dark: hsl(var(--fist-hue), 62%, 20%);
+    /* --first-color: hsl(var(--first-hue), 91%, 64%); */
+    /* --first-color-dark: hsl(var(--fist-hue), 62%, 20%); */
     --title-color: hsl(var(--second-hue), 8%, 85%);
     --text-color: hsl(var(--second-hue), 8%, 75%);
     --body-color: hsl(var(--second-hue), 28%, 12%);
     --container-color: hsl(var(--second-hue), 28%, 15%);
-    --white-color: hsl(var(--second-hue), 8%, 100%);
+    /* --white-color: hsl(var(--second-hue), 8%, 100%); */
+
+    /* --first-gradient: linear-gradient(150deg,
+            var(--first-color) 0%,
+            var(--white-color) 100%);
+    --second-gradient: linear-gradient(260deg,
+            var(--first-color-dark) 0%,
+            var(--first-color) 100%); */
+
 
     --first-gradient: linear-gradient(150deg,
             var(--first-color) 0%,
@@ -19,7 +33,6 @@
     --second-gradient: linear-gradient(260deg,
             var(--first-color-dark) 0%,
             var(--first-color) 100%);
-
     /* =============== Font Family =============== */
     --body-font: 'Space Grotesk', sans-serif;
 
@@ -360,7 +373,7 @@ img {
 }
 
 .skills-blob {
-    width: 90px;
+    width: 110px;
     height: 110px;
     background-color: var(--container-color);
     border-radius: 3rem;
@@ -370,7 +383,7 @@ img {
 }
 
 .skills-img {
-    width: 40px;
+    width: 70px;
 }
 
 .skills-name {
@@ -380,6 +393,7 @@ img {
 
 .skills-level {
     font-size: var(--small-font-size);
+    color: var(--white-color);
 }
 
 /* =============== RESUME =============== */
@@ -442,14 +456,14 @@ img {
 }
 
 /* =============== PORTFOLIO =============== */
-.work-list{
+.work-list {
     display: flex;
     justify-content: center;
     column-gap: 2.5rem;
     margin-bottom: 3.5rem;
 }
 
-.work-item{
+.work-item {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
     cursor: pointer;
@@ -459,11 +473,11 @@ img {
 }
 
 .work-item:hover,
-.active-work{
+.active-work {
     color: var(--first-color);
 }
 
-.work-item::before{
+.work-item::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -473,22 +487,22 @@ img {
     background-color: var(--first-color);
 }
 
-.active-work::before{
+.active-work::before {
     width: 60%;
 }
 
-.work-container{
+.work-container {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.75rem;
 }
 
-.work-card{
+.work-card {
     background-color: var(--container-color);
     padding: 2rem;
     border-radius: 1rem;
 }
 
-.work-img{
+.work-img {
     height: 240px;
     width: 100%;
     object-fit: cover;
@@ -496,22 +510,22 @@ img {
     margin-bottom: 1.5rem;
 }
 
-.work-category{
+.work-category {
     color: var(--first-color);
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
 }
 
-.work-title{
+.work-title {
     font-size: var(--h3-font-size);
     margin-block: 0.75rem 1.75rem;
 }
 
-.work-description{
+.work-description {
     min-height: 125px;
 }
 
-.work-link{
+.work-link {
     display: inline-flex;
     align-items: center;
     column-gap: 0.75rem;
@@ -520,41 +534,43 @@ img {
 }
 
 
-.work-icon{
+.work-icon {
     color: var(--first-color);
     font-size: 1.25rem;
     transition: transform 0.3s;
 }
 
-.work-link:hover, .work-icon{
+.work-link:hover,
+.work-icon {
     transform: translateX(00.25rem);
 }
+
 /* =============== CONTACT =============== */
-.contact{
+.contact {
     padding-bottom: 8rem;
 }
 
-.contact-container{
+.contact-container {
     grid-template-columns: 5.5fr 6.5fr;
     column-gap: 2rem;
 }
 
-.contact-sectiom-title{
+.contact-sectiom-title {
     text-align: left;
 }
 
-.contain-data{
+.contain-data {
     row-gap: 2rem;
 }
 
-.contact-item{
+.contact-item {
     display: grid;
     grid-template-columns: max-content 1fr;
     align-items: center;
     column-gap: 1.5rem;
 }
 
-.contact-icon{
+.contact-icon {
     width: 68px;
     aspect-ratio: 1/1;
     background: var(--second-gradient);
@@ -565,46 +581,46 @@ img {
     font-size: 2rem;
 }
 
-.conatact-title{
+.conatact-title {
     font-size: var(--larger-font-size);
     margin-bottom: 0.25rem;
 }
 
-.contact-form{
+.contact-form {
     row-gap: 3rem;
     margin-top: 1rem;
     position: relative;
 }
 
-.contact-form-div{
+.contact-form-div {
     display: grid;
     row-gap: 0.75rem;
 }
 
-.contact-label{
+.contact-label {
     color: var(--title-color);
     font-size: var(--large-font-size);
     font-weight: var(--font-semi-bold);
 }
 
-.contact-input{
+.contact-input {
     color: var(--title-color);
     border-bottom: 3px solid --title-color;
     padding-inline: 0.25rem;
     height: 50px;
 }
 
-.contact-area{
+.contact-area {
     resize: none;
     height: 200px;
 }
 
-.contact-button{
+.contact-button {
     justify-self: start;
     margin-top: 1rem;
 }
 
-.contact-message{
+.contact-message {
     position: absolute;
     bottom: 5.5rem;
     left: 0;
