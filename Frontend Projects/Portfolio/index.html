@@ -10,7 +10,11 @@
     <!-- <link rel="stylesheet" href="CSS/style.css"> -->
     <link rel="stylesheet" href="CSS/utility.css">
 
+
+    <!-- ====================== Icons ====================== -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
 
 
     <!-- ====================== Google Fonts ====================== -->
@@ -22,46 +26,45 @@
 
 <body>
     <!-- ====================== NavBar ====================== -->
-    <header class="header">
+    <header class="header" id="header">
         <nav id="navmenu" class="nav container">
-            <a href="#" class="nav-logo">AmaxCode</a>
+            <a href="#" class="nav-logo">CodeAmax</a>
 
-            <div class="nav-menu">
+            <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active-link">Home</a>
+                        <a href="#home" class="nav-link active-link">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Service</a>
+                        <a href="#services" class="nav-link">Service</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Skills</a>
+                        <a href="#skills" class="nav-link">Skills</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Portfolio</a>
+                        <a href="#work" class="nav-link">Portfolio</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
 
-
-                <i class="ri-close-line nav-close"></i>
+                <i class="ri-close-line nav-close" id="nav-close"></i>
             </div>
 
             <div class="nav-btns">
                 <!-- <i class="ri-moon-line"></i> -->
-                <i class="ri-sun-line change-theme"></i>
+                <i class="ri-sun-line change-theme" id="theme-toggle"></i>
 
-                <div class="nav-toggle">
+                <div class="nav-toggle" id="nav-toggle">
                     <i class="ri-menu-line"></i>
 
                 </div>
@@ -72,7 +75,7 @@
     <!-- ====================== MAIN ====================== -->
     <main class="main">
         <!-- ====================== HOME ====================== -->
-        <section class="home section">
+        <section class="home section" id="home">
             <div class="home-container container grid">
                 <div class="home-data">
                     <h1 class="home-title">Amansinh Parmar</h1>
@@ -88,8 +91,9 @@
                 </div>
 
                 <div class="home-img-wrapper">
-                    <img src="https://i.pinimg.com/1200x/48/49/ba/4849ba2ea6517f805785071120cccc08.jpg" alt=""
-                        class="home-img">
+                    <!-- <img src="https://i.pinimg.com/1200x/48/49/ba/4849ba2ea6517f805785071120cccc08.jpg" alt=""
+                        class="home-img"> -->
+                      <img src="imgs/profile-Transparent.png" alt="" class="home-img">
                 </div>
 
                 <div class="home-social grid">
@@ -111,7 +115,7 @@
         </section>
 
         <!-- ====================== ABOUT ====================== -->
-        <section class="about section">
+        <section class="about section" id="about">
             <div class="about-container container grid">
                 <div class="about-experience">
                     <span class="about-no"><count-up>7</count-up></span>
@@ -123,7 +127,7 @@
 
                 <div>
                     <h2 class="about-description">
-                        Over <span>seven years of programming</span>
+                        Over <span class="text-gradient">seven years of programming</span>
                         transform concepts projects using
                         <span class="text-gradient">creativity</span> and
                         <span class="text-gradient">interactive design </span> worldwide.
@@ -155,7 +159,7 @@
         </section>
 
         <!-- ====================== SERVICES ====================== -->
-        <section class="service section">
+        <section class="service section" id="services">
             <h2 class="section-title">My Services</h2>
 
             <div class="services-container container grid">
@@ -188,11 +192,11 @@
         </section>
 
         <!-- ====================== SKILLS ====================== -->
-        <section class="skills section">
+        <section class="skills section" id="skills">
             <h2 class="section-title">My Skills</h2>
 
             <div class="skills-container container grid">
-                <div class="skills-group">
+                <div class="skills-group skills-developer">
                     <h3 class="skills-title">Frontend Developer</h3>
 
                     <div class="skills-items grid">
@@ -244,7 +248,7 @@
                     </div>
                 </div>
 
-                <div class="skills-group">
+                <div class="skills-group skills-designer">
                     <h3 class="skills-title">Backend Developer</h3>
 
                     <div class="skills-items grid">
@@ -291,33 +295,33 @@
         </section>
 
         <!-- ====================== RESUME ====================== -->
-        <section class="resume section">
+        <section class="resume section" id="resume">
             <h2 class="section-title">My Journey</h2>
 
             <div class="resume-container container grid">
                 <div class="resume-item grid">
                     <div class="resume-left">
-                        <i class="ri-apple-fill"></i>
-                        <h3 class="resume-title">Apple</h3>
-                        <span class="resume-duration">Jan 2023 - May 2024</span>
+                        <i class="ri-restaurant-line resume-icon"></i>
+                        <h3 class="resume-title">Singh's Resuratnt</h3>
+                        <span class="resume-duration">June 2021 - April 2024</span>
                     </div>
 
                     <div class="resume-right">
-                        <h3 class="resume-title">UX / UI Designer</h3>
+                        <h3 class="resume-title">Resuratnt Manager</h3>
                         <p class="resume-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
                             aspernatur enim, porro facere laborum velit aliquid optio autem cumque voluptate?</p>
                     </div>
                 </div>
 
                 <div class="resume-item grid">
-                    <div class="resume-left">
-                        <i class="ri-facebook-circle-fill"></i>
-                        <h3 class="resume-title">Facebook</h3>
-                        <span class="resume-duration">June 2024 - Jan 2025</span>
+                    <div class="resume-right">
+                        <i class="ri-building-4-fill resume-icon"></i>
+                        <h3 class="resume-title">Evolution Gaming</h3>
+                        <span class="resume-duration">April 2022 - July 2023</span>
                     </div>
 
-                    <div class="resume-right">
-                        <h3 class="resume-title">UX / UI Designer</h3>
+                    <div class="resume-left">
+                        <h3 class="resume-title">Game Presenter</h3>
                         <p class="resume-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptates, dolor aspernatur. Quo voluptatibus ea amet alias quam expedita enim ipsam.</p>
                     </div>
@@ -325,26 +329,26 @@
 
                 <div class="resume-item grid">
                     <div class="resume-left">
-                        <i class="ri-graduation-cap-fill"></i>
+                        <i class="ri-graduation-cap-fill resume-icon"></i>
                         <h3 class="resume-title">University</h3>
                         <span class="resume-duration">Feb 2019 - July 2023</span>
                     </div>
 
                     <div class="resume-right">
-                        <h3 class="resume-title">B.Tech in Computer Engineer</h3>
+                        <h3 class="resume-title">B.Tech in Computer Engineering</h3>
                         <p class="resume-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                             mollitia voluptas consectetur aperiam unde soluta exercitationem dolore quam nulla enim?</p>
                     </div>
                 </div>
 
                 <div class="resume-item grid">
-                    <div class="resume-left">
-                        <i class="ri-pages-fill"></i>
+                    <div class="resume-right">
+                        <i class="ri-code-s-slash-line resume-icon"></i>
                         <h3 class="resume-title">Software Engineer</h3>
                         <span class="resume-duration">Jan 2025 - Present</span>
                     </div>
 
-                    <div class="resume-right">
+                    <div class="resume-left">
                         <h3 class="resume-title">Full Stack Developer</h3>
                         <p class="resume-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
                             consequatur voluptatibus quaerat placeat ad delectus dolores sunt, soluta sequi quasi?</p>
@@ -355,24 +359,25 @@
         </section>
 
         <!-- ====================== PORTFOLIO ====================== -->
-        <section class="work section">
+        <section class="work section" id="work">
             <h2 class="section-title">Portfolio</h2>
 
             <div class="container">
                 <ul class="work-list">
                     <li class="work-item active-work" data-filter="all">All</li>
                     <li class="work-item" data-filter=".development">Development</li>
-                    <li class="work-item" data-filter=".photography">Photography</li>
+                    <li class="work-item" data-filter=".editing">Editing</li>
                     <li class="work-item" data-filter=".marketing">Marketing</li>
                 </ul>
 
                 <div class="work-container grid">
-                    <div class="mix branding">
+                    <div class="mix editing development">
                         <article class="work-card">
-                            <img src="" alt="" class="work-img">
+                            <img src="imgs/Integrated Productivity App.png" alt="" class="work-img">
 
-                            <h4 class="work-category">Branding</h4>
-                            <h3 class="work-title">Zorro</h3>
+                            <h4 class="work-category">UI / UX Development
+                            </h4>
+                            <h3 class="work-title">Integrated Productivity App</h3>
 
                             <p class="work-description">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus dolores nisi
@@ -385,30 +390,31 @@
                         </article>
                     </div>
 
-                    <div class="mix marketing">
+                    <div class="mix marketing development">
                         <article class="work-card">
-                            <img src="" alt="" class="work-img">
-
-                            <h4 class="work-category">MArketing</h4>
-                            <h3 class="work-title">Explore</h3>
-
-                            <p class="work-description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus dolores nisi
-                                harum, excepturi modi enim et eum quidem aspernatur.
-                            </p>
-
-                            <a href="#" class="work-link">
-                                Visit Project <i class="ri-arrow-right-line work-icon"></i>
-                            </a>
-                        </article>
-                    </div>
-
-                    <div class="mix developme">
-                        <article class="work-card">
-                            <img src="" alt="" class="work-img">
+                            <img src="imgs/Luxury Furniture Showcase Platform Web Application.png" alt=""
+                                class="work-img">
 
                             <h4 class="work-category">Development</h4>
-                            <h3 class="work-title">Stay Fit</h3>
+                            <h3 class="work-title">Luxury Furniture Showcase Platform</h3>
+
+                            <p class="work-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus dolores nisi
+                                harum, excepturi modi enim et eum quidem aspernatur.
+                            </p>
+
+                            <a href="#" class="work-link">
+                                Visit Project <i class="ri-arrow-right-line work-icon"></i>
+                            </a>
+                        </article>
+                    </div>
+
+                    <div class="mix development">
+                        <article class="work-card">
+                            <img src="imgs/Colour Trends.png" alt="" class="work-img">
+
+                            <h4 class="work-category">Development</h4>
+                            <h3 class="work-title">Colour Trends – Textile Production</h3>
 
                             <p class="work-description">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo doloribus dolores nisi
@@ -426,7 +432,7 @@
         </section>
 
         <!-- ====================== CONTACT ====================== -->
-        <section class="contact section">
+        <section class="contact section" id="contact">
             <div class="contact-container container grid">
                 <div class="contact-group">
                     <h2 class="section-title contact-section-title">
@@ -474,18 +480,17 @@
                 <form class="contact-form grid" id="contact-form">
                     <div class="contact-form-div">
                         <label for="" class="contact-label">Name</label>
-                        <input type="text" name="name" class="contact-input">
+                        <input type="text" name="name" class="contact-input" id="contact-name">
                     </div>
 
                     <div class="contact-form-div">
                         <label for="" class="contact-label">Email</label>
-                        <input type="text" name="email" class="contact-input">
+                        <input type="email" name="email" class="contact-input" id="contact-email">
                     </div>
 
                     <div class="contact-form-div">
                         <label for="" class="contact-label">Message</label>
-                        <input type="text" class="contact-input">
-                        <textarea name="message" id="" class="contact-input contact-area"></textarea>
+                        <textarea name="message" id="contact-message" class="contact-input contact-area"></textarea>
                     </div>
 
                     <button type="submit" class="button contact-button">Send Message</button>
@@ -496,11 +501,35 @@
         </section>
     </main>
     <!-- ====================== FOOOTER ====================== -->
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/" target="_blank" class="footer-link">
+                    <i class="ri-linkedin-fill"></i>
+                </a>
 
+                <a href="https://www.instagram.com/" target="_blank" class="footer-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+
+                <a href="https://www.github.com/" target="_blank" class="footer-link">
+                    <i class="ri-github-fill"></i>
+                </a>
+
+
+            </div>
+
+            <p class="footer-copyright">ⓒ 2025 <span>CodeAmax</span>. All Rights Reserved</p>
+
+            <p class="footer-copyright">Developed by <span>Amansinh</span></p>
+
+        </div>
+    </footer>
 
     <!-- ====================== GSAP ====================== -->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
     <!-- ====================== COUNT-UP ====================== -->
     <script type="module"
@@ -509,23 +538,13 @@
 
     <!-- ====================== MIXITUP ====================== -->
     <script src="JS/mixitup.min.js"></script>
+
     <!-- ====================== EMAIL JS ====================== -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
 
     <!-- ====================== SCROLL REVEAL ====================== -->
-
-    <!-- ====================== Home Page ====================== -->
-    <!-- <section class="container">
-        <!-- <div class="left">
-            <h1>Hello, I<span>'</span>m</h1>
-            <h2>Amansinh Parmar</h2>
-            <h4>Frontend Developer</h4>
-            <p></p>
-        </div> -->
-
-    <div class="right">
-        <!-- <img src="https://i.pinimg.com/1200x/48/49/ba/4849ba2ea6517f805785071120cccc08.jpg" alt=""> -->
-    </div>
-    </section> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- ====================== Footer ====================== -->
 

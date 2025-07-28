@@ -1,0 +1,160 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  --first-hue: 260;
+  --second-hue: 216;
+  --first-color: hsl(var(--first-hue), 91%, 64%);
+  --first-color-dark: hsl(var(--first-hue), 62%, 20%);
+  --title-color: hsl(var(--second-hue), 8%, 85%);
+  --text-color: hsl(var(--second-hue), 8%, 75%);
+  --body-color: hsl(var(--second-hue), 28%, 12%);
+  --container-color: hsl(var(--second-hue), 28%, 15%);
+  --white-color: hsl(var(--second-hue), 8%, 100%);
+
+  --first-gradient: linear-gradient(
+    150deg,
+    var(--first-color) 0%,
+    var(--white-color) 100%
+  );
+  --second-gradient: linear-gradient(
+    260deg,
+    var(--first-color-dark) 0%,
+    var(--first-color) 100%
+  );
+
+  /*========== Font family ==========*/
+  --body-font: 'Space Grotesk', sans-serif;
+
+  /*========== Font sizes ==========*/
+  --big-font-size: 8rem;
+  --h1-font-size: 3.75rem;
+  --h2-font-size: 3rem;
+  --h3-font-size: 1.5rem;
+  --larger-font-size: 1.25rem;
+  --large-font-size: 1.125rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+}
+
+/* Responsive typography */
+@media screen and (max-width: 1208px) {
+}
+
+/*=============== BASE ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.75;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/*=============== Variables Dark theme ===============*/
+
+/*========== 
+    Color changes in some parts of 
+    the website, in light theme
+==========*/
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+
+/*=============== LAYOUT ===============*/
+
+/*=============== HEADER & NAV ===============*/
+
+/* Active link */
+
+/* Change background header */
+
+/*=============== MAIN ===============*/
+
+/*=============== HOME ===============*/
+
+/*=============== ABOUT ===============*/
+
+/*=============== SERVICES ===============*/
+
+/*=============== SKILLS ===============*/
+
+/*=============== RESUME ===============*/
+
+/*=============== PORTFOLIO ===============*/
+
+/*=============== CONTACT ===============*/
+
+/*=============== FOOTER ===============*/
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1208px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 460px) {
+}
