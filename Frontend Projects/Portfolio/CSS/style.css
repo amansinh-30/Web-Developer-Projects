@@ -462,10 +462,12 @@ body.light-theme p {
 }
 
 /* =============== SERVICES=============== */
+
 .services-container {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.75rem;
 }
+
 
 .services-card {
     background: var(--container-color);
@@ -556,6 +558,12 @@ body.light-theme p {
     column-gap: 4rem;
     color: var(--white-color);
 }
+
+.resume-item {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+}
+
 
 .resume-right {
     order: 2;
@@ -745,7 +753,7 @@ body.light-theme p {
 }
 
 .contact-description {
-    color: var(--white-color);
+    color: var(--text-color);
 }
 
 .contact-form {
@@ -1006,8 +1014,16 @@ body.light-theme p {
 
     .services-container,
     .work-container {
-        grid-template-columns: 405px;
+        grid-template-columns: 1fr;
         justify-content: center;
+    }
+
+
+    .resume-item {
+        grid-template-columns: 1fr;
+        /* Stack left/right content */
+        text-align: left;
+        row-gap: 1.5rem;
     }
 
     .skills-blob {
@@ -1029,6 +1045,12 @@ body.light-theme p {
         row-gap: 0.25rem;
     }
 
+    .resume-left,
+    .resume-right {
+        text-align: left;
+        order: unset;
+    }
+
     .resume-right {
         order: initial;
     }
@@ -1036,6 +1058,41 @@ body.light-theme p {
     .resume-left {
         text-align: left;
     }
+
+
+    /* ========== CHANGES ========== */
+
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+
+    .services-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .resume-item {
+        grid-template-columns: 1fr;
+        /* stack items */
+        row-gap: 1.5rem;
+        column-gap: 0;
+        padding: 1rem;
+    }
+
+    .resume-left,
+    .resume-right {
+        text-align: left;
+        order: unset;
+    }
+
+    .resume-icon {
+        font-size: 2.5rem;
+    }
+
+    /* ========== CHANGES ========== */
+
 }
 
 @media screen and (max-width: 576px) {
@@ -1052,15 +1109,24 @@ body.light-theme p {
 
     .services-container,
     .work-container {
-        grid-template-columns: 1rem;
+        grid-template-columns: 2rem;
     }
 
     .services-card,
     .work-card {
-        padding: 1.75rem;
+        padding: .75rem;
     }
 
     .skills-items {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* For extra small devices */
+@media screen and (max-width: 420px) {
+
+    .services-container,
+    .resume-item {
+        padding: 0 1rem;
     }
 }
