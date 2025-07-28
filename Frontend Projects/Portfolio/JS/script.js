@@ -31,6 +31,7 @@ const linkAction = () => {
 
 navLink.forEach((n) => n.addEventListener('click', linkAction));
 
+
 //  ====================== CHANGE BACKGROUND HEADER ====================== 
 const scrollHeader = () => {
     const header = document.getElementById('header');
@@ -40,6 +41,7 @@ const scrollHeader = () => {
 };
 
 window.addEventListener('scroll', scrollHeader);
+
 
 //  ====================== SCROLL SECTIONS ACTIVE LINK ====================== 
 const sections = document.querySelectorAll('section[id]');
@@ -66,6 +68,7 @@ const scrollActive = () => {
 
 window.addEventListener('scroll', scrollActive)
 
+
 //  ====================== SCROLL ABOUT ANIMATION ====================== 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -81,6 +84,7 @@ gsap.utils.toArray(".text-gradient").forEach((span) => {
         }
     })
 });
+
 
 //  ====================== DARK LIGHT THEME ======================
 window.addEventListener('DOMContentLoaded', () => {
@@ -110,6 +114,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+
 //  ====================== MIXITUP FILTER PORTFOLIO ======================
 var mixer = mixitup('.work-container', {
     selectors: {
@@ -132,6 +137,7 @@ function activeWork() {
 }
 
 linkWork.forEach((a) => a / addEventListener('click', activeWork))
+
 
 //  ====================== EMAIL JS ====================== 
 const contactForm = document.getElementById('contact-form');
@@ -175,6 +181,7 @@ const sendEmail = (e) => {
 }
 contactForm.addEventListener('submit', sendEmail);
 
+
 //  ====================== SCROLL REVEAL ANIMATION ====================== 
 const sr = ScrollReveal({
     origin: 'top',
@@ -191,4 +198,3 @@ sr.reveal(`.skills-developer, .resume-left, .contact-group`,
     { origin: 'left' });
 sr.reveal(`.skills-designer, .resume-right, .contact-form`,
     { origin: 'right' });
-

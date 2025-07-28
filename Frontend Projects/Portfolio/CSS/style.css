@@ -10,10 +10,8 @@
     --second-hue: 216deg;
 
     --first-color: hsl(0, 100%, 50%);
-    /* --first-color-dark: hsl(0, 100%, 10%); */
     --white-color: hsl(0, 0%, 100%);
 
-    /* --first-color: hsl(var(--first-hue), 100%, 70%); */
     --first-color-dark: hsl(var(--second-hue), 62%, 20%);
     --title-color: hsl(var(--second-hue), 8%, 85%);
     --text-color: hsl(var(--second-hue), 8%, 75%);
@@ -21,24 +19,11 @@
     --container-color: hsl(var(--second-hue), 28%, 15%);
     --white-color: #ffffff;
 
-
-    /* HSL: hsl(216, 62%, 20%) → RGB: rgb(13, 38, 61) */
     --first-color-dark: rgb(13, 38, 61);
-
-    /* HSL: hsl(216, 8%, 85%) → RGB: rgb(214, 218, 223) */
     --title-color: rgb(214, 218, 223);
-
-    /* HSL: hsl(216, 8%, 75%) → RGB: rgb(181, 186, 191) */
     --text-color: rgb(181, 186, 191);
-
-    /* HSL: hsl(216, 28%, 12%) → RGB: rgb(20, 26, 33) */
-    /* --body-color: rgb(20, 26, 33); */
-
-    /* HSL: hsl(216, 28%, 15%) → RGB: rgb(26, 33, 41) */
+    --body-color: rgb(20, 26, 33);
     --container-color: rgb(26, 33, 41);
-
-
-
 
     --first-gradient: linear-gradient(150deg,
             var(--first-color) 0%,
@@ -46,7 +31,6 @@
     --second-gradient: linear-gradient(260deg,
             var(--first-color-dark) 0%,
             var(--first-color) 100%);
-
 
     /* =============== Font Family =============== */
     --body-font: 'Space Grotesk',
@@ -68,7 +52,6 @@
     --font-bold: 700;
 }
 
-
 /* Responsive Typography */
 @media screen and (max-width: 1208px) {
     :root {
@@ -82,7 +65,6 @@
         --small-font-size: 0.813rem;
     }
 }
-
 
 /* =============== BASE =============== */
 * {
@@ -141,7 +123,6 @@ img {
     max-width: 100%;
 }
 
-
 /* =========== Update Changes ===========  */
 :root {
     --text-color: rgb(181, 186, 191);
@@ -153,18 +134,14 @@ img {
     /* used in light mode */
 }
 
-
 p {
     font-family: 'Inter', sans-serif;
-    color: var(--text-color);
 }
 
 body.light-theme p {
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
 }
-
-
 
 /* =============== Variables Dark theme =============== */
 .light-theme {
@@ -178,7 +155,6 @@ body.light-theme p {
             var(--first-color-dark) 0%,
             var(--white-color) 100%);
 }
-
 
 /* =============== 
         Color changes in some parts of 
@@ -194,7 +170,6 @@ body.light-theme p {
     /* used in light mode */
 }
 
-
 /* =========== Update Changes ===========  */
 p {
     font-family: 'Inter', sans-serif;
@@ -205,7 +180,6 @@ body.light-theme p {
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
 }
-
 
 
 .light-theme .scroll-header {
@@ -225,7 +199,6 @@ body.light-theme p {
     background-size: 100% 100%;
 }
 
-
 /* Default (dark theme) */
 body {
     font-family: 'Inter', sans-serif;
@@ -242,14 +215,12 @@ p {
 /* Light Theme Overrides */
 body.light-theme {
     font-family: 'Poppins', sans-serif;
-    /* applies to all text unless overridden */
     background-color: #ffffff;
     color: #ffffff;
 }
 
 body.light-theme p {
     font-family: 'Poppins', sans-serif;
-    /* explicitly set for paragraphs */
 }
 
 /* =============== RESUSABLE CSS CLASSES =============== */
@@ -411,7 +382,6 @@ body.light-theme p {
     transform: perspective(1000px) rotateY(5deg);
 }
 
-
 .home-img:hover {
     transform: scale(1.03);
 }
@@ -476,9 +446,6 @@ body.light-theme p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
-
 
 .about-data {
     row-gap: 2rem;
@@ -682,12 +649,12 @@ body.light-theme p {
 
 .work-container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.75rem;
+    gap: 1.55rem;
 }
 
 .work-card {
     background-color: var(--container-color);
-    padding: 2rem;
+    padding: 1.4rem;
     border-radius: 1rem;
 }
 
