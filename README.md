@@ -1,6 +1,7 @@
 # 💻 Web Developer Projects 
 
 Welcome to my **Web Developer Projects** repository!  
+
 This repo contains a collection of practical, hands-on web development projects built to sharpen my frontend and full-stack skills using HTML, CSS, JavaScript, and more. This collection contains beginner to intermediate projects designed to help me sharpen my coding skills and assist other developers in learning and improving their frontend development abilities. Let's build and grow together! 🌱✨
 
 ---
