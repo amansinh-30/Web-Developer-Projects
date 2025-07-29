@@ -337,7 +337,7 @@ body.light-theme p {
     box-shadow: 0 4px 4px hsl(var(--first-hue), 0%, 4%, 0.2);
 }
 
-/* =============== HOME =============== */
+/* =============== MAIN =============== */
 .main {
     overflow: hidden;
 }
@@ -358,7 +358,7 @@ body.light-theme p {
 }
 
 .home-job {
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--font-semi-bold);
 }
 
@@ -979,9 +979,9 @@ body.light-theme p {
     }
 
     .contact-container {
-        grid-template-columns: 620px;
+        grid-template-columns: 420px;
         justify-content: center;
-        row-gap: 2rem;
+        row-gap: 4rem;
     }
 
     .contact-sectiom-title {
@@ -989,7 +989,8 @@ body.light-theme p {
     }
 
     .contact-form {
-        margin-top: 0;
+        grid-template-columns: 420px;
+        /* margin-top: 25px; */
     }
 
     .footer-container {
@@ -1014,7 +1015,7 @@ body.light-theme p {
 
     .services-container,
     .work-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 405px;
         justify-content: center;
     }
 
@@ -1036,12 +1037,12 @@ body.light-theme p {
         all: unset;
     }
 
-    .resume-item,
-    .contact-container {
+    .resume-item {
         grid-template-columns: 1fr;
     }
 
-    .resume-item {
+    .resume-item,
+    .contact-container {
         row-gap: 0.25rem;
     }
 
@@ -1102,7 +1103,7 @@ body.light-theme p {
 }
 
 /* For small devices */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 320px) {
     .container {
         padding-inline: 1rem;
     }
@@ -1114,19 +1115,73 @@ body.light-theme p {
 
     .services-card,
     .work-card {
-        padding: .75rem;
+        padding: 1.75rem;
     }
 
     .skills-items {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .skills-blob {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+
+    .skills-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .resume-item,
+    .contact-container {
+
+        grid-template-columns: 250px;
+        row-gap: 0.25rem;
+    }
+
+    .contact-container {
+        grid-template-columns: 250px;
+        justify-content: center;
+        row-gap: 1rem;
+    }
+
+    .contact-sectiom-title {
+        text-align: center;
+    }
+
+    .contact-form {
+        margin-top: 0;
+    }
+
 }
 
 /* For extra small devices */
-@media screen and (max-width: 420px) {
+
+@media screen and (max-width: 310px) {
+
+    .container {
+        padding-inline: 1rem;
+    }
 
     .services-container,
-    .resume-item {
-        padding: 0 1rem;
+    .work-container {
+        grid-template-columns: 1rem;
+    }
+
+
+    .services-card,
+    .work-card {
+        padding: 1.75rem;
+    }
+
+    .skills-blob {
+        width: 50px;
+        height: 70px;
+    }
+
+    .skills-img {
+        width: 40px;
+        height: 50px;
     }
 }
