@@ -41,6 +41,15 @@ This repo contains a collection of practical, hands-on web development projects 
 
 ---
 
+## 🚀 How to Use
+
+1. Clone the main repository:
+   
+   ```bash
+   git clone https://github.com/your-username/Web-Developer-Projects.git
+
+---
+
 ## 📄 License
 
 This repository is licensed under the **MIT License**.  
