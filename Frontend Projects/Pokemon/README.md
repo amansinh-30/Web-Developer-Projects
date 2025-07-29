@@ -55,4 +55,4 @@ This project is open source and free to use! 🎉
 
 ---
 
-💫*Created with by **CodeAmax***
+*Created with by **CodeAmax***💫
