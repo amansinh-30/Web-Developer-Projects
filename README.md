@@ -57,6 +57,12 @@ See the [LICENSE](./LICENSE) file for details.
 
 ---
 
+## 🙏 Credits
 
+Created and maintained by **Amansinh Parmar**.  
+
+---
+
+Happy coding! 💻🎉
 Thanks for stopping by! ⭐  
-Feel free to fork this repo, use the projects, or share feedback.
+Feel free to fork this repo, use the projects, or share feedback.🚀✨ 
