@@ -2,23 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Selecting</title>
-    <style>
-        .pokemon {
-            display: inline-block;
-            text-align: center;
-        }
-
-        .pokemon img {
-            display: block;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dynamic Pokémon Generator</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
     <h1>Look at my Pokemon!</h1>
+
+    <div id="controls">
+        <input type="number" id="pokemonCount" min="1" placeholder="Number to display" value="10" />
+        <input type="text" id="searchInput" placeholder="Search by name or ID" />
+        <button id="generateBtn">Generate</button>
+        <button id="toggleThemeBtn">Toggle Dark Mode</button>
+    </div>
+
     <section id="container"></section>
 
     <script src="pokemon.js"></script>
