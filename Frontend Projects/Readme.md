@@ -1,64 +1,32 @@
-# 💻 Web Developer Projects
+# 🌐 Frontend Projects 🚀
 
-Welcome to my **Web Developer Projects** repository!  
-This repo contains a collection of practical, hands-on web development projects built to sharpen my frontend and full-stack skills using HTML, CSS, JavaScript, and more.
-
----
-
-## 📁 Folders & Description
-
-| Folder Name          | Description                                               |
-|----------------------|-----------------------------------------------------------|
-| `frontend projects/` | Mini-projects focused on UI, layouts, responsiveness, and interactivity using HTML, CSS, and JavaScript. |
-| `coming-soon/`       | Placeholder for upcoming full-stack or React-based projects. |
+A collection of frontend web development projects focused on building **responsive**, **interactive** user interfaces using HTML, CSS, and JavaScript.
 
 ---
 
-## 🧰 Tech Stack & Skills
+## 🚀 Features
 
-<div align="left">
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
-
-</div>
+- ⚡ Fast and responsive UI
+- 🎨 Custom design system with reusable components
+- 🌐 API integration with real-time data
+- 🧪 Unit and integration testing support
+- 🔥 Built with a modern frontend tech stack
 
 ---
+## 🛠️ Tech Stack
 
-## 🌐 Live Demos
+| Category         | Tech                                   |
+|------------------|----------------------------------------|
+| 🧠 Framework      | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat-square) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat-square) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square) |
+| 🎨 Styling        | ![CSS](https://img.shields.io/badge/-Vanilla_CSS-264de4?logo=css3&logoColor=white&style=flat-square) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?logo=bootstrap&logoColor=white&style=flat-square) |
+| 🌐 API            | ![Fetch](https://img.shields.io/badge/-Fetch_API-000000?style=flat-square&logo=javascript&logoColor=white) ![JSON](https://img.shields.io/badge/-JSON-292929?logo=json&logoColor=white&style=flat-square) |
+| 🧪 Testing        | ![Jest](https://img.shields.io/badge/-Jest-C21325?logo=jest&logoColor=white&style=flat-square) ![Chrome DevTools](https://img.shields.io/badge/-Chrome_DevTools-4285F4?logo=google-chrome&logoColor=white&style=flat-square) |
+| ⚙️ Build Tools    | ![NPM](https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white&style=flat-square) ![Parcel](https://img.shields.io/badge/-Parcel-3C3C3C?logo=parcel&logoColor=white&style=flat-square) |
 
-Some projects are deployed and can be viewed live here:
-
-- [Portfolio Website](https://github.com/amansinh-30/Web-Developer-Projects/tree/main/Frontend%20Projects/Portfolio)
-
-
-*(Replace with your actual live demo links)*
 
 ---
+## 🤝 How to Contribute
 
-## ✨ Features
+Contributions are welcome!  
+Please fork the repo, create a new branch, and open a pull request with a description of your changes.
 
-- 🧱 Clean and responsive UI designs  
-- 🎯 Real-world functionality with vanilla JavaScript (and React in some projects)  
-- 📱 Mobile-first layout and responsiveness  
-- 🚀 Organized codebase with modular structure  
-- 🌱 Beginner-friendly structure for learning or building upon  
-
----
-
-## 📄 License
-
-This repository is licensed under the **MIT License**.  
-See the [LICENSE](./LICENSE) file for details.
-
----
-
-
-Thanks for stopping by! ⭐  
-Feel free to fork this repo, use the projects, or share feedback.
