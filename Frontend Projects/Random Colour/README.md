@@ -22,4 +22,8 @@ Random Color is a simple RGB code generator built with HTML, CSS, and JavaScript
 Contributions are welcome! Feel free to fork the repo and submit pull requests.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is open source and free to use!
+
+---
+
+*Created by CodeAmax*
