@@ -1,5 +1,5 @@
 /* =============================
-   ✅ MOBILE-FIRST RESET
+     MOBILE-FIRST RESET
 ============================= */
 
 * {
@@ -19,7 +19,7 @@ body {
 }
 
 /* =============================
-   ✅ CONTAINER CARD
+     CONTAINER CARD
 ============================= */
 
 .container {
@@ -44,7 +44,7 @@ h1 {
 }
 
 /* =============================
-   ✅ INPUT AREA STACKED
+     INPUT AREA STACKED
 ============================= */
 
 .input-area {
@@ -88,7 +88,7 @@ h1 {
 }
 
 /* =============================
-   ✅ TASK LIST + SCROLLBAR
+     TASK LIST + SCROLLBAR
 ============================= */
 
 #task-list {
@@ -111,7 +111,7 @@ h1 {
 }
 
 /* =============================
-   ✅ TASK ITEMS
+      TASK ITEMS
 ============================= */
 
 #task-list li {
