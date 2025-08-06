@@ -2,6 +2,8 @@
 
 Welcome to the **To-Do App** – a simple, clean, and efficient task management application that helps you stay organized and boost your productivity! 🚀
 
+
+
 ![todo banner](https://img.freepik.com/free-vector/checklist-concept-illustration_114360-5037.jpg) <!-- You can change or remove this image -->
 
 ---
