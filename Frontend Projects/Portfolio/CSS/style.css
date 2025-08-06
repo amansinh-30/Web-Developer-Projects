@@ -159,7 +159,7 @@ body.light-theme p {
 /* =============== 
         Color changes in some parts of 
         the website, in light theme
-         =============== */
+                            =============== */
 :root {
     --text-color: rgb(181, 186, 191);
     /* used in dark mode */
@@ -194,7 +194,6 @@ body.light-theme p {
 
 .light-theme .text-gradient {
     background-image: linear-gradient(to right, #ff3b45, #000000);
-    /* Brighter + more visible */
     -webkit-text-fill-color: transparent;
     background-size: 100% 100%;
 }
@@ -202,7 +201,6 @@ body.light-theme p {
 /* Default (dark theme) */
 body {
     font-family: 'Inter', sans-serif;
-    /* fallback for dark theme */
     background-color: var(--body-color);
     color: #eee;
 }
@@ -212,7 +210,7 @@ p {
     color: black;
 }
 
-/* Light Theme Overrides */
+/* Light Theme */
 body.light-theme {
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
