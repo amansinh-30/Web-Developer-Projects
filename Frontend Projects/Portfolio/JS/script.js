@@ -125,6 +125,7 @@ var mixer = mixitup('.work-container', {
     }
 });
 
+
 /* Active work */
 const linkWork = document.querySelectorAll('.work-item');
 
