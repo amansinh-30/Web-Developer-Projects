@@ -54,15 +54,11 @@ If you find this repo useful, don’t forget to **⭐ Star** and **🍴 Fork** i
    ```bash
    git clone https://github.com/your-username/Web-Developer-Projects.git
 
----
 
-## 📄 License
-
-This repository is licensed under the **MIT License**.  
-See the [LICENSE](./LICENSE) file for details.
 
 ---
----
+
+
 ## 🤝 How to Contribute
 
 Contributions are welcome!✨
